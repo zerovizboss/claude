@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(sf org list:*)",
+      "Bash(sf config:*)",
+      "Bash(sf project retrieve:*)",
+      "Bash(sf data query:*)",
+      "Bash(\"sf\" org list-metadata --metadata-type \"OmniScript\")",
+      "Bash(\"sf\" project retrieve start --manifest \"C:\\Users\\zerov\\IdeaProjects\\TheKenificGroup\\omnistudio-package.xml\")",
+      "Bash(gh project create:*)",
+      "Bash(git --version)",
+      "Bash(gh:*)",
+      "WebFetch(domain:trailhead.salesforce.com)",
+      "WebFetch(domain:trailhead.salesforce.com)",
+      "WebFetch(domain:github.com)",
+      "Bash(git add:*)"
+    ],
+    "deny": []
+  }
+}
